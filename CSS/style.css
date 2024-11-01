@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    background-image: url(./Imagenes/WhatsApp\ Image\ 2024-10-30\ at\ 20.43.33.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    margin-left: 30%;
+    margin-top: 10%;
+    z-index: -1;
+}
+
+header {
+    padding: 20px;
+} 
+
+header h1 {
+    font-size: 24px;
+}
+
+nav {
+    background-color: #b81c1cc7
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+nav img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="button"] {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a {
+    color: #b81c1cc7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contenedor-productos, #seccion-carro {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+#contenedor-productos div, #seccion-carro div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contenedor-productos div h3, #seccion-carro div h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#contenedor-productos div p, #seccion-carro div p {
+    margin-bottom: 10px;
+}
+
+.producto-imagen {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Puedes ajustar la altura máxima */
+    object-fit: cover; /* Ajusta la imagen para que ocupe todo el espacio del contenedor sin deformarse */
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #b81c1cc7;
+    color: white;
+}
+
+button:hover {
+    background-color: #000000c7;
+}
+
+button.btn-remove {
+    background-color: #e74c3c;
+}
+
+button.btn-remove:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #b81c1cc7;
+    color: white;
+}
+
+#total {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+#total h3 {
+    display: inline-block;
+    background-color:#b81c1cc7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#formularioCompra {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+#formularioCompra label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#formTarjeta,
+#formPaypal,
+#formEfectivo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#formularioCompra input,
+#formularioCompra select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#botonFinalizarCompra {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #b81c1cc7;
+    color: white;
+}
+
+#botonFinalizarCompra:hover {
+    background-color: #000000c7;
+}
