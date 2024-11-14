@@ -114,8 +114,8 @@ h2 {
 .producto-imagen {
     width: 100%;
     height: auto;
-    max-height: 150px; /* Puedes ajustar la altura máxima */
-    object-fit: cover; /* Ajusta la imagen para que ocupe todo el espacio del contenedor sin deformarse */
+    max-height: 150px; 
+    object-fit: cover;
     margin-bottom: 10px;
 }
 

@@ -1,0 +1,57 @@
+[
+    { "id": 1, 
+    "nombre": "Lámpara de lava", 
+    "precio": 18000, 
+    "imagen": "../Imagenes/lampara de lava.webp" 
+},
+
+{ "id": 2, 
+    "nombre": "Lámpara globo de filamento led", 
+    "precio": 6900, 
+    "imagen": "../Imagenes/Lámpara globo de filamento led.png"
+ },
+
+ { "id": 3, 
+    "nombre": "Lámpara globo de filamento incandescente de carbono", 
+    "precio": 5900, 
+    "imagen": "../Imagenes/Lámpara globo de filamento incandescente de carbono.jpg" 
+},
+
+{ "id": 4, 
+    "nombre": "Velador de madera", 
+    "precio": 10000, 
+    "imagen": "../Imagenes/Velador de madera.webp" 
+},
+
+{ "id": 5, 
+    "nombre": "Velador gancho", 
+    "precio": 15000, 
+    "imagen": "../Imagenes/Velador gancho.webp" 
+},
+
+{ "id": 6, 
+    "nombre": "Velador Pixar", 
+    "precio": 25000, 
+    "imagen": "../Imagenes/Velador Pixar.webp" 
+},
+
+{ "id": 7, 
+    "nombre": "Velador Estudiantes", 
+    "precio": 17000, 
+    "imagen": "../Imagenes/Velador Estudiantes.webp" 
+},
+
+{ "id": 8, 
+    "nombre": "Lámpara fria 8w", 
+    "precio": 1500, 
+    "imagen": "../Imagenes/Lámpara fria 8w.webp" 
+},
+
+{ "id": 9, 
+    "nombre": "Lámpara cálida 8w", 
+    "precio": 1200, 
+    "imagen": "../Imagenes/Lámpara cálida 8w.jpg" 
+}
+
+]
+
